@@ -13,12 +13,14 @@ public class Lambda {
         // 不用声明类型
         MathOperation subtraction = (a, b) -> 0;
         // 大括号中的返回语句
-        MathOperation multiplication = (int a, int b) -> { return a * b; };
+        MathOperation multiplication = (int a, int b) -> {
+            return a * b;
+        };
         // 没有大括号及返回语句
         MathOperation division = (int a, int b) -> a / b;
 
         Lambda lambda = new Lambda();
-        System.out.println(lambda.operate(1,2,addition));
+        System.out.println(lambda.operate(1, 2, addition));
 
     }
 
@@ -26,7 +28,7 @@ public class Lambda {
         int operation(int a, int b);
     }
 
-    interface GreetingService {
+    interface GrecetingService {
         void sayMessage(String message);
     }
 

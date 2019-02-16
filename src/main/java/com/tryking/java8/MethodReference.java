@@ -10,7 +10,6 @@ import java.util.List;
 public class MethodReference {
     public static void main(String[] args) {
         // 方法引用通过方法的名字来指向一个方法。
-        // 方法引用通过方法的名字来指向一个方法。
         // 方法引用使用一对冒号 ::
 
         List names = new ArrayList();

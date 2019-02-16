@@ -9,7 +9,8 @@ import java.util.Set;
 public class NewFeature {
     public static void main(String[] args) {
 
-        // 1. 增加 NewFeature，在jshell中可以直接输入表达式并查看其执行结果。
+        // 1. 增加 NewFeature，在 jshell 中可以直接输入表达式并查看其执行结果。
+        //     可以简单易用的交互式执行 Java 代码
         //    当需要测试一个方法的运行效果，或是快速的对表达式进行求值时，jshell都非常实用。
 
         // 2. 在集合上，java9 增加了 List.of() 、 Set.of()、 Map.of()等工厂方法来创建不可变集合。

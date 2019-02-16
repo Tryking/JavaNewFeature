@@ -11,9 +11,8 @@ import java.io.StringReader;
  */
 public class BetterTryWithResource {
     public static void main(String[] args) throws IOException {
-        // before java9
         System.out.println(beforeJava9("test"));
-        System.out.println(Java9("test1"));
+        System.out.println(Java9("test"));
     }
 
     private static String beforeJava9(String message) throws IOException {

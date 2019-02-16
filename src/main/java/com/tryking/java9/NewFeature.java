@@ -15,6 +15,10 @@ public class NewFeature {
         // 2. 在集合上，java9 增加了 List.of() 、 Set.of()、 Map.of()等工厂方法来创建不可变集合。
         // 在之前需要使用 Collections.unmodifiableSet() 等方法来实现。
 
+
+        // 3. 引入模块系统，并且将 JDK 也进行了模块化，JDK9 一共由 94 个模块组成
+        //    通过新增的 jlink 工具可以创建出每个应用所独有的Java运行时镜像。
+
         List<String> citys = List.of("Beijing", "Shanghai", "Nanjing");
         System.out.println(citys.toString());
 
